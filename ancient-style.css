@@ -1,0 +1,96 @@
+body {
+    background-image: url("assets/images/hub/red-wallpaper.jpg");
+}
+
+*.Content {
+    background-image: url("assets/images/hub/white-wallpaper.jpg");
+    width:80%;
+    box-shadow: 0px 10px 50px 0px #350202;
+}
+
+*.Center {
+    margin: auto;
+}
+
+nav.navbar {
+    width: 79.2%;
+    /* how do i get the child to inherit the parent's width */
+    /* this breaks down when you click on a link and go back to the page */
+    top:0px;
+    position: fixed;
+    background-color:#221f24;
+}
+
+*.nav-links {
+    width:93%;
+    /* yo i cant keep doing this, so bad */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+*.nav-text {
+    color:azure;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration:none;
+}
+
+ul {
+    list-style-type:none;
+}
+
+#Top {
+    color:darkslateblue;
+    text-align: center;
+    font-size:50px;
+}
+
+*.Date {
+    /* make it bold
+    decide on colour later but it should stand out
+    */
+    color:rgb(108, 54, 163);
+    text-align: center;
+    font-size:60px;
+}
+
+*.Console-Title {
+    /* nice and big, each game shouyald get the representaiton it needs
+    console should be bigger than that game cause there is less */
+    text-align: center;
+    color:rgb(56, 89, 198);
+    font-size:40px;
+}
+
+*.Game-Title {
+    text-align: center;
+    color:cadetblue;
+}
+
+/* each year should have its own theme??
+make each special
+each year is so different so you need to do this */
+
+*.Games {
+    align: center;
+}
+
+* {
+    text-align: center;
+}
+
+
+
+
+/* ASSETS */
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.grid-container {
+    display: grid;
+    
+}
