@@ -107,3 +107,12 @@ img.ds{
     width: 150px;
     height: auto;
 }
+
+li.game-image {
+    display: inline-block;
+    vertical-align: top;
+}
+img.switch{
+    width: 150px;
+    height: auto;
+}
