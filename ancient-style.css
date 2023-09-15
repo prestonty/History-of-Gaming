@@ -1,9 +1,10 @@
+/* MAIN BODY AND BACKGROUND */
 body {
-    background-image: url("assets/images/hub/red-wallpaper.jpg");
+    background-color: #ff4444;
 }
 
 *.Content {
-    background-image: url("assets/images/hub/white-wallpaper.jpg");
+    background-color: #48444c;
     width:80%;
     box-shadow: 0px 10px 50px 0px #350202;
 }
@@ -11,6 +12,9 @@ body {
 *.Center {
     margin: auto;
 }
+
+
+/* NAVBAR */
 
 nav.navbar {
     width: 100%;
@@ -43,37 +47,80 @@ ul {
     /* removes the bullet point from list items */
 }
 
+
+/* TITLES AND HEADERS */
+
+/* hr {
+    border-top: 5px solid #fe4042;
+} */
+
 #Top {
-    color:darkslateblue;
+    /* color:darkslateblue; */
     text-align: center;
     font-size:50px;
 }
 
-*.Date {
-    /* make it bold
-    decide on colour later but it should stand out
-    */
-    color:rgb(108, 54, 163);
+*.date {
+    /* color:#d8757d; */
+    color:#ff4454;
     text-align: center;
-    font-size:60px;
+    font-family: 'Nintendo DS BIOS', sans-serif;
+    font-size:250px;
 }
 
-*.Console-Title {
+.title {
     /* nice and big, each game shouyald get the representaiton it needs
     console should be bigger than that game cause there is less */
     text-align: center;
-    color:rgb(56, 89, 198);
-    font-size:40px;
+    font-family: 'Press Start 2P', sans-serif;
+    /* font-family: 'nintendo_NTLG-DB_001', sans-serif; */
+    /* font-family: 'Super Smash 4.1', sans-serif; */
+    /* font-family: 'NintendoExt003', sans-serif; */
+    /* font-family: 'NintendoExtLE003', sans-serif; */
+    /* font-family: 'nintendo_udsg-r_std_003', sans-serif; */
 }
 
-*.Game-Title {
-    text-align: center;
-    color:cadetblue;
+p {
+    font-family: 'Consolas', monospace;
+    font-size: 22px;
+    color: azure;
+}
+
+.console {
+    font-size:60px;
+    /* color:rgb(56, 89, 198); */
+    color: #08c4e4;
+}
+
+.game {
+    font-size:40px;
+    color:rgb(121, 216, 161);
 }
 
 /* each year should have its own theme??
 make each special
 each year is so different so you need to do this */
+
+/* TEXT */
+
+.red, .greyl, .greyd, .blue {
+    display: inline;
+}
+
+.red {
+    color:#ff4454;
+}
+
+.blue {
+    color: #08c4e4;
+}
+.greyl {
+    color:#a09c9c;
+}
+
+.greyd {
+    color:#48444c;
+}
 
 *.Games {
     align: center;
@@ -86,7 +133,7 @@ each year is so different so you need to do this */
 
 
 
-/* ASSETS */
+/* IMAGE ASSETS */
 
 img {
     width: 300px;
@@ -104,7 +151,7 @@ li.game-image {
 }
 
 img.misc{
-    width: 250px;
+    width: 300px;
     height: auto;
 }
 
@@ -114,8 +161,13 @@ img.gameboy{
 }
 
 img.ds{
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 150px;
+}
+
+img.wii{
+    width: auto;
+    height:300px;
 }
 
 img.switch{
