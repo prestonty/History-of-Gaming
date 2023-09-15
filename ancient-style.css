@@ -103,15 +103,21 @@ li.game-image {
     vertical-align: top;
 }
 
-img.ds{
-    width: 150px;
+img.misc{
+    width: 250px;
     height: auto;
 }
 
-li.game-image {
-    display: inline-block;
-    vertical-align: top;
+img.gameboy{
+    width: auto;
+    height: 300px;
 }
+
+img.ds{
+    width: 200px;
+    height: auto;
+}
+
 img.switch{
     width: 150px;
     height: auto;
