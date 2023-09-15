@@ -1,4 +1,7 @@
 /* MAIN BODY AND BACKGROUND */
+html {
+    scroll-behavior: smooth;
+   }
 body {
     background-color: #ff4444;
 }
@@ -13,6 +16,11 @@ body {
     margin: auto;
 }
 
+
+/* ANIMATIONS!!! */
+ @keyframes scrollMovement {
+
+ }
 
 /* NAVBAR */
 
@@ -30,6 +38,7 @@ nav.navbar {
 *.nav-links {
     width:93%;
     /* yo i cant keep doing this, so bad */
+    padding-top:12px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -38,7 +47,8 @@ nav.navbar {
 
 *.nav-text {
     color:azure;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 15px;
     text-decoration:none;
 }
 
@@ -101,7 +111,7 @@ p {
 make each special
 each year is so different so you need to do this */
 
-/* TEXT */
+/* COLOURS */
 
 .red, .greyl, .greyd, .blue {
     display: inline;
@@ -122,6 +132,42 @@ each year is so different so you need to do this */
     color:#48444c;
 }
 
+@keyframes redToBlue {
+    0% {
+        color: #ff4454
+    }
+    50% {
+        color: #08c4e4
+    }
+    100% {
+        color: #ff4454
+    }
+}
+
+@keyframes blueToRed {
+    0% {
+        color: #08c4e4
+    }
+    50% {
+        color: #ff4454
+    }
+    100% {
+        color: #08c4e4
+    }
+}
+
+div.r-to-b {
+    animation: redToBlue 4s infinite;
+    display: inline;
+}
+div.b-to-r {
+    animation: blueToRed 4s infinite;
+    display: inline;
+}
+
+
+/* TEXT */
+
 *.Games {
     align: center;
 }
@@ -130,7 +176,13 @@ each year is so different so you need to do this */
     text-align: center;
 }
 
+.Consoles {
+    padding: 0px 200px 0px 200px;
+}
 
+.Games {
+    padding: 0px 200px 0px 200px;
+}
 
 
 /* IMAGE ASSETS */
